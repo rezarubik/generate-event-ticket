@@ -2,7 +2,7 @@
 
 ## About Generate Event Ticket
 
-Generate Event Ticket use PHP-CLI Native, API check and update ticket code use PHP Native
+Generate Event Ticket use PHP-CLI Native, API check and update ticket code use PHP Native. This generate event ticket use PHP version 8.1.16.
 
 ## Installation and Set Up
 
@@ -27,7 +27,9 @@ php generate_ticket.php 2 5
 ```
 
 Detail of arguments:
+
 #### a. First argument is event_id (example is 2)
+
 #### b. Second argument is total of ticket (example is 5)
 
 ## Run API Check Status Ticket Code
