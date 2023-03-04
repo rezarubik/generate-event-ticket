@@ -10,9 +10,9 @@ Generate Event Ticket use PHP-CLI Native, API check and update ticket code use P
 
 ### 2. Setting Database Connection
 
-#### Setting your database inside config/database.php. In this example I use mysql as database.
+#### a. Setting your database inside config/database.php. In this example I use mysql as database.
 
-#### Import Dummy Database from detikcom_event.sql in your local database.
+#### b. Import Dummy Database from detikcom_event.sql in your local database.
 
 ### 3. DONE
 
@@ -27,8 +27,8 @@ php generate_ticket.php 2 5
 ```
 
 Detail of arguments:
-a. First argument is event_id (example is 2)
-b. Second argument is total of ticket (example is 5)
+#### a. First argument is event_id (example is 2)
+#### b. Second argument is total of ticket (example is 5)
 
 ## Run API Check Status Ticket Code
 
