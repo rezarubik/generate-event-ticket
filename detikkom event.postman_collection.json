@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "b93ed504-5221-496a-8c4a-f274a8887db4",
+		"name": "detikkom event",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7973421"
+	},
+	"item": [
+		{
+			"name": "Check Status Ticket Code",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost/detikcom/api/api_check_status_ticket.php?event_id=2&ticket_code=SZKRqZNYN4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"detikcom",
+						"api",
+						"api_check_status_ticket.php"
+					],
+					"query": [
+						{
+							"key": "event_id",
+							"value": "2"
+						},
+						{
+							"key": "ticket_code",
+							"value": "SZKRqZNYN4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Status Ticket",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "event_id",
+							"value": "2",
+							"type": "text"
+						},
+						{
+							"key": "ticket_code",
+							"value": "SZKRqZNYN4",
+							"type": "text"
+						},
+						{
+							"key": "status",
+							"value": "available",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/detikcom/api/api_update_status_ticket.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"detikcom",
+						"api",
+						"api_update_status_ticket.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
