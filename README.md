@@ -10,8 +10,9 @@ Generate Event Ticket use PHP-CLI Native, API check and update ticket code use P
 
 ### 2. Setting Database Connection
 
-a. Setting your database inside config/database.php. In this example I use mysql as database.
-b. Import Dummy Database from detikcom_event.sql in your local database.
+# Setting your database inside config/database.php. In this example I use mysql as database.
+
+# Import Dummy Database from detikcom_event.sql in your local database.
 
 ### 3. DONE
 
@@ -41,7 +42,7 @@ b. Second argument is total of ticket (example is 5)
 
 ### 5. DONE
 
-## Rim API Update Status Ticket
+## Run API Update Status Ticket
 
 ### 1. Import postman collection from this repo
 
